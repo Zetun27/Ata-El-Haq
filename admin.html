@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles-admin.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body class="admin-page">
+    <header>
+        <div class="logo">
+            <img src="admin.PNG" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="admin.html">Dashboard</a></li>
+                <li><a href="manage-users.html">Manage Users</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="#" id="logoutBtn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Admin Dashboard</h1>
+        <section class="admin-content">
+            <div class="stats">
+                <div class="stat-card">
+                    <h2>Total Users</h2>
+                    <p id="totalUsers">123</p>
+                </div>
+                <div class="stat-card">
+                    <h2>Recent Activity</h2>
+                    <p id="recentActivity">Last login: 2024-08-19</p>
+                </div>
+            </div>
+            <div class="actions">
+                <h2>Actions</h2>
+                <button class="btn">Manage Content</button>
+                <button class="btn">View Reports</button>
+                <button class="btn">Update Settings</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
